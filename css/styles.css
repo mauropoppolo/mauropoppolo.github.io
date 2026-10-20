@@ -1080,3 +1080,7 @@ h1, h2, h3 {
 }
 
 .about__stats .stat dd { white-space: nowrap; }
+
+/* Numbers sit on the bottom of every stat box, whatever the label length */
+.stat { display: flex; flex-direction: column; }
+.stat dd { margin-top: auto; }
